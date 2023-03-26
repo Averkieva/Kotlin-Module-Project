@@ -10,7 +10,7 @@ abstract class GenScreen <T:Gen>(private val article: String?, private val mutab
             }
             else{
                 println("Чтобы открыть, введите номер:")
-                mutableList.forEachIndexed { index, t -> println("${index+1}.${t.article}")}
+                mutableList.forEachIndexed { index, t -> println("${index+1} - ${t.article}")}
             }
             println("Чтобы выйти, введите ${mutableList.size + 1}")
             val x: Int = Scanner(System.`in`).nextInt()
