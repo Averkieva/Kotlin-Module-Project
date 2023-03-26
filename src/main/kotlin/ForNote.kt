@@ -1,0 +1,1 @@
+data class ForNote (override val article:String?, val txt:String?):Gen(article)
