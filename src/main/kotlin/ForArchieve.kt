@@ -1,0 +1,1 @@
+data class ForArchieve(override val article:String?, val notes:MutableList<ForNote>):Gen(article)

@@ -1,0 +1,1 @@
+abstract class Gen (open val article:String?)
